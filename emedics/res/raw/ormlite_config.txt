@@ -1,0 +1,945 @@
+# --table-start--
+dataClass=com.wael.entities.AdminDetails
+tableName=fb_admin
+# --table-fields-start--
+# --field-start--
+fieldName=User_Id
+columnName=user_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=User_Name
+columnName=user_name
+# --field-end--
+# --field-start--
+fieldName=User_Pass
+columnName=user_pass
+# --field-end--
+# --field-start--
+fieldName=Pwd
+columnName=pwd
+# --field-end--
+# --field-start--
+fieldName=User_Email
+columnName=user_email
+# --field-end--
+# --field-start--
+fieldName=User_Privilege
+columnName=user_privilege
+# --field-end--
+# --field-start--
+fieldName=User_Options
+columnName=user_options
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.wael.entities.Annexe_c
+tableName=m2m_mds_annexe_c
+# --table-fields-start--
+# --field-start--
+fieldName=Evaluation_ID
+columnName=evaluation_id
+generatedId=true
+# --field-end--
+# --field-start-
+fieldName=patient
+columnName=patient_id
+foreign=true
+# --field-end--
+# --field-start--
+fieldName=c_a_1
+columnName=C_A_1
+# --field-end--
+# --field-start--
+fieldName=c_a_2
+columnName=C_A_2
+# --field-end--
+# --field-start--
+fieldName=c_a_3a
+columnName=C_A_3a
+# --field-end--
+# --field-start--
+fieldName=c_a_3b
+columnName=C_A_3b
+# --field-end--
+# --field-start--
+fieldName=c_a_3c
+columnName=C_A_3c
+# --field-end--
+# --field-start--
+fieldName=c_a_comments
+columnName=C_A_Comments
+# --field-end--
+# --field-start--
+fieldName=c_a_status
+columnName=C_A_Status
+# --field-end--
+# --field-start--
+fieldName=c_b_1a
+columnName=C_B_1a
+# --field-end--
+# --field-start--
+fieldName=c_b_1b
+columnName=C_B_1b
+# --field-end--
+# --field-start--
+fieldName=c_b_2
+columnName=C_B_2
+# --field-end--
+# --field-start--
+fieldName=c_b_3a
+columnName=C_B_3a
+# --field-end--
+# --field-start--
+fieldName=c_b_3b
+columnName=C_B_3b
+# --field-end--
+# --field-start--
+fieldName=c_b_3c
+columnName=C_B_3c
+# --field-end--
+# --field-start--
+fieldName=c_b_4
+columnName=C_B_4
+# --field-end--
+# --field-start--
+fieldName=c_b_5
+columnName=C_B_5
+# --field-end--
+# --field-start--
+fieldName=c_b_comments
+columnName=C_B_Comments
+# --field-end--
+# --field-start--
+fieldName=c_b_status
+columnName=C_B_Status
+# --field-end--
+# --field-start--
+fieldName=c_c_1
+columnName=C_C_1
+# --field-end--
+# --field-start--
+fieldName=c_c_2
+columnName=C_C_2
+# --field-end--
+# --field-start--
+fieldName=c_c_3
+columnName=C_C_3
+# --field-end--
+# --field-start--
+fieldName=c_c_comments
+columnName=C_C_Comments
+# --field-end--
+# --field-start--
+fieldName=c_c_status
+columnName=C_C_Status
+# --field-end--
+# --field-start--
+fieldName=c_d_1
+columnName=C_D_1
+# --field-end--
+# --field-start--
+fieldName=c_d_comments
+columnName=C_D_Comments
+# --field-end--
+# --field-start--
+fieldName=c_d_status
+columnName=C_D_Status
+# --field-end--
+# --field-start--
+fieldName=c_e_1a
+columnName=C_E_1a
+# --field-end--
+# --field-start--
+fieldName=c_e_1b
+columnName=C_E_1b
+# --field-end--
+# --field-start--
+fieldName=c_e_1c
+columnName=C_E_1c
+# --field-end--
+# --field-start--
+fieldName=c_e_1d
+columnName=C_E_1d
+# --field-end--
+# --field-start--
+fieldName=c_e_1e
+columnName=C_E_1e
+# --field-end--
+# --field-start--
+fieldName=c_e_2a
+columnName=C_E_2a
+# --field-end--
+# --field-start--
+fieldName=c_e_2b
+columnName=C_E_2b
+# --field-end--
+# --field-start--
+fieldName=c_e_2c
+columnName=C_E_2c
+# --field-end--
+# --field-start--
+fieldName=c_e_2d
+columnName=C_E_2d
+# --field-end--
+# --field-start--
+fieldName=c_e_2e
+columnName=C_E_2e
+# --field-end--
+# --field-start--
+fieldName=c_e_comments
+columnName=C_E_Comments
+# --field-end--
+# --field-start--
+fieldName=c_e_status
+columnName=C_E_Status
+# --field-end--
+# --field-start--
+fieldName=c_f_1a
+columnName=C_F_1a
+# --field-end--
+# --field-start--
+fieldName=c_f_1c
+columnName=C_F_1c
+# --field-end--
+# --field-start--
+fieldName=c_f_2
+columnName=C_F_2
+# --field-end--
+# --field-start--
+fieldName=c_f_3
+columnName=C_F_3
+# --field-end--
+# --field-start--
+fieldName=c_f_4
+columnName=C_F_4
+# --field-end--
+# --field-start--
+fieldName=c_f_comments
+columnName=C_F_Comments
+# --field-end--
+# --field-start--
+fieldName=c_f_status
+columnName=C_F_Status
+# --field-end--
+# --field-start--
+fieldName=c_g1
+columnName=C_G1
+# --field-end--
+# --field-start--
+fieldName=c_g_2a
+columnName=C_G_2a
+# --field-end--
+# --field-start--
+fieldName=c_g_2b
+columnName=C_G_2b
+# --field-end--
+# --field-start--
+fieldName=c_g_comments
+columnName=C_G_Comments
+# --field-end--
+# --field-start--
+fieldName=c_g_status
+columnName=C_G_Status
+# --field-end--
+# --field-start--
+fieldName=c_h1_comments
+columnName=C_H1_Comments
+# --field-end--
+# --field-start--
+fieldName=c_h1_g1
+columnName=C_H1_g1
+# --field-end--
+# --field-start--
+fieldName=c_h1_f1
+columnName=C_H1_f1
+# --field-end--
+# --field-start--
+fieldName=c_h1_e1
+columnName=C_H1_e1
+# --field-end--
+# --field-start--
+fieldName=c_h2_a
+columnName=C_H2_a
+# --field-end--
+# --field-start--
+fieldName=c_h1_d1
+columnName=C_H1_d1
+# --field-end--
+# --field-start--
+fieldName=c_h2_b
+columnName=C_H2_b
+# --field-end--
+# --field-start--
+fieldName=c_h1_c1
+columnName=C_H1_c1
+# --field-end--
+# --field-start--
+fieldName=c_h2_c
+columnName=C_H2_c
+# --field-end--
+# --field-start--
+fieldName=c_h1_b1
+columnName=C_H1_b1
+# --field-end--
+# --field-start--
+fieldName=c_h2_d
+columnName=C_H2_d
+# --field-end--
+# --field-start--
+fieldName=c_h1_a1
+columnName=C_H1_a1
+# --field-end--
+# --field-start--
+fieldName=c_h2_f
+columnName=C_H2_f
+# --field-end--
+# --field-start--
+fieldName=c_h1_g
+columnName=C_H1_g
+# --field-end--
+# --field-start--
+fieldName=c_h2_g
+columnName=C_H2_g
+# --field-end--
+# --field-start--
+fieldName=c_h1_f
+columnName=C_H1_f
+# --field-end--
+# --field-start--
+fieldName=c_h2_h
+columnName=C_H2_h
+# --field-end--
+# --field-start--
+fieldName=c_h1_e
+columnName=C_H1_e
+# --field-end--
+# --field-start--
+fieldName=c_h2_i
+columnName=C_H2_i
+# --field-end--
+# --field-start--
+fieldName=c_h1_d
+columnName=C_H1_d
+# --field-end--
+# --field-start--
+fieldName=c_h2_j
+columnName=C_H2_j
+# --field-end--
+# --field-start--
+fieldName=c_h1_c
+columnName=C_H1_c
+# --field-end--
+# --field-start--
+fieldName=c_h1_b
+columnName=C_H1_b
+# --field-end--
+# --field-start--
+fieldName=c_h3
+columnName=C_H3
+# --field-end--
+# --field-start--
+fieldName=c_h1_a
+columnName=C_H1_a
+# --field-end--
+# --field-start--
+fieldName=c_h2_comments
+columnName=C_H2_Comments
+# --field-end--
+# --field-start--
+fieldName=c_h4
+columnName=C_H4
+# --field-end--
+# --field-start--
+fieldName=c_h5_a
+columnName=C_H5_a
+# --field-end--
+# --field-start--
+fieldName=c_h5_b
+columnName=C_H5_b
+# --field-end--
+# --field-start--
+fieldName=c_h6_a
+columnName=C_H6_a
+# --field-end--
+# --field-start--
+fieldName=c_h6_b
+columnName=C_H6_b
+# --field-end--
+# --field-start--
+fieldName=c_h_comments
+columnName=C_H_Comments
+# --field-end--
+# --field-start--
+fieldName=c_h_status
+columnName=C_H_Status
+# --field-end--
+# --field-start--
+fieldName=c_i1
+columnName=C_I1
+# --field-end--
+# --field-start--
+fieldName=c_i2
+columnName=C_I2
+# --field-end--
+# --field-start--
+fieldName=c_i3a
+columnName=C_I3a
+# --field-end--
+# --field-start--
+fieldName=c_i3b
+columnName=C_I3b
+# --field-end--
+# --field-start--
+fieldName=c_i3c
+columnName=C_I3c
+# --field-end--
+# --field-start--
+fieldName=c_i3d
+columnName=C_I3d
+# --field-end--
+# --field-start--
+fieldName=c_i3e
+columnName=C_I3e
+# --field-end--
+# --field-start--
+fieldName=c_i3f
+columnName=C_I3f
+# --field-end--
+# --field-start--
+fieldName=c_i_comments
+columnName=C_I_Comments
+# --field-end--
+# --field-start--
+fieldName=c_i_status
+columnName=C_I_Status
+# --field-end--
+# --field-start--
+fieldName=c_j_1
+columnName=C_J_1
+# --field-end--
+# --field-start--
+fieldName=c_j1a_1
+columnName=C_J1a_1
+# --field-end--
+# --field-start--
+fieldName=c_j1a_2
+columnName=C_J1a_2
+# --field-end--
+# --field-start--
+fieldName=c_j1a_3
+columnName=C_J1a_3
+# --field-end--
+# --field-start--
+fieldName=c_j_status
+columnName=C_J_Status
+# --field-end--
+# --field-start--
+fieldName=c_k_1b
+columnName=C_K_1b
+# --field-end--
+# --field-start--
+fieldName=c_k_1c
+columnName=C_K_1c
+# --field-end--
+# --field-start--
+fieldName=c_k_1e
+columnName=C_K_1e
+# --field-end--
+# --field-start--
+fieldName=c_k_1d
+columnName=C_K_1d
+# --field-end--
+# --field-start--
+fieldName=c_k_1f
+columnName=C_K_1f
+# --field-end--
+# --field-start--
+fieldName=c_k_1g
+columnName=C_K_1g
+# --field-end--
+# --field-start--
+fieldName=c_k_1h
+columnName=C_K_1h
+# --field-end--
+# --field-start--
+fieldName=c_k_1i
+columnName=C_K_1i
+# --field-end--
+# --field-start--
+fieldName=c_k_1j
+columnName=C_K_1j
+# --field-end--
+# --field-start--
+fieldName=c_k_1k
+columnName=C_K_1k
+# --field-end--
+# --field-start--
+fieldName=c_k_2
+columnName=C_K_2
+# --field-end--
+# --field-start--
+fieldName=c_k_3
+columnName=C_K_3
+# --field-end--
+# --field-start--
+fieldName=c_k_4a
+columnName=C_K_4a
+# --field-end--
+# --field-start--
+fieldName=c_k_4b
+columnName=C_K_4b
+# --field-end--
+
+# --field-start--
+fieldName=c_k_4c
+columnName=C_K_4c
+# --field-end--
+# --field-start--
+fieldName=c_k_5
+columnName=C_K_5
+# --field-end--
+# --field-start--
+fieldName=c_k_6a
+columnName=C_K_6a
+# --field-end--
+# --field-start--
+fieldName=c_k_6b
+columnName=C_K_6b
+# --field-end--
+# --field-start--
+fieldName=c_k_7a
+columnName=C_K_7a
+# --field-end--
+# --field-start--
+fieldName=c_k_7b
+columnName=C_K_7b
+# --field-end--
+# --field-start--
+fieldName=c_k_8a
+columnName=C_K_8a
+# --field-end--
+# --field-start--
+fieldName=c_k_8b
+columnName=C_K_8b
+# --field-end--
+# --field-start--
+fieldName=c_k_8c
+columnName=C_K_8c
+# --field-end--
+# --field-start--
+fieldName=c_k_comments
+columnName=C_K_Comments
+# --field-end--
+# --field-start--
+fieldName=c_k_status
+columnName=C_K_Status
+# --field-end--
+# --field-start--
+fieldName=c_l_1a
+columnName=C_L_1a
+# --field-end--
+# --field-start--
+fieldName=c_l_1b
+columnName=C_L_1b
+# --field-end--
+# --field-start--
+fieldName=c_l_2a
+columnName=C_L_2a
+# --field-end--
+# --field-start--
+fieldName=c_l_2b
+columnName=C_L_2b
+# --field-end--
+# --field-start--
+fieldName=c_l_3
+columnName=C_L_3
+# --field-end--
+# --field-start--
+fieldName=c_l_4
+columnName=C_L_4
+# --field-end--
+# --field-start--
+fieldName=c_l_5
+columnName=C_L_5
+# --field-end--
+# --field-start--
+fieldName=c_l_6
+columnName=C_L_6
+# --field-end--
+# --field-start--
+fieldName=c_l_comments
+columnName=C_L_Comments
+# --field-end--
+# --field-start--
+fieldName=c_l_status
+columnName=C_L_Status
+# --field-end--
+# --field-start--
+fieldName=c_m_1
+columnName=C_M_1
+# --field-end--
+# --field-start--
+fieldName=c_m_2
+columnName=C_M_2
+# --field-end--
+# --field-start--
+fieldName=c_m_3a
+columnName=C_M_3a
+# --field-end--
+# --field-start--
+fieldName=c_m_3b
+columnName=C_M_3b
+# --field-end--
+# --field-start--
+fieldName=c_m_3c
+columnName=C_M_3c
+# --field-end--
+# --field-start--
+fieldName=c_m_3d
+columnName=C_M_3d
+# --field-end--
+# --field-start--
+fieldName=c_m_4
+columnName=C_M_4
+# --field-end--
+# --field-start--
+fieldName=c_m_comments
+columnName=C_M_Comments
+# --field-end--
+# --field-start--
+fieldName=c_m_status
+columnName=C_M_Status
+# --field-end--
+# --field-start--
+fieldName=c_n_1
+columnName=C_N_1
+# --field-end--
+# --field-start--
+fieldName=c_n_comments
+columnName=C_N_Comments
+# --field-end--
+# --field-start--
+fieldName=c_n_status
+columnName=C_N_Status
+# --field-end--
+# --field-start--
+fieldName=c_o_1a
+columnName=C_O_1a
+# --field-end--
+# --field-start--
+fieldName=c_o_1b
+columnName=C_O_1b
+# --field-end--
+# --field-start--
+fieldName=c_o_1c
+columnName=C_O_1c
+# --field-end--
+# --field-start--
+fieldName=c_o_1d
+columnName=C_O_1d
+# --field-end--
+# --field-start--
+fieldName=c_o_1e
+columnName=C_O_1e
+# --field-end--
+# --field-start--
+fieldName=c_o_1f
+columnName=C_O_1f
+# --field-end--
+# --field-start--
+fieldName=c_o_1g
+columnName=C_O_1g
+# --field-end--
+# --field-start--
+fieldName=c_o_1h
+columnName=C_O_1h
+# --field-end--
+# --field-start--
+fieldName=c_o_1i
+columnName=C_O_1i
+# --field-end--
+# --field-start--
+fieldName=c_o_1iInfo
+columnName=C_O_1iInfo
+# --field-end--
+# --field-start--
+fieldName=c_o_comments
+columnName=C_O_Comments
+# --field-end--
+# --field-start--
+fieldName=c_o_status
+columnName=C_O_Status
+# --field-end--
+# --field-start--
+fieldName=c_o_2
+columnName=C_O_2
+# --field-end--
+# --field-start--
+fieldName=c_p_1
+columnName=C_P_1
+# --field-end--
+# --field-start--
+fieldName=c_p_2a
+columnName=C_P_2a
+# --field-end--
+# --field-start--
+fieldName=c_p_2b
+columnName=C_P_2b
+# --field-end--
+# --field-start--
+fieldName=c_p_3
+columnName=C_P_3
+# --field-end--
+# --field-start--
+fieldName=c_p_4
+columnName=C_P_4
+# --field-end--
+# --field-start--
+fieldName=c_p_5a
+columnName=C_P_5a
+# --field-end--
+# --field-start--
+fieldName=c_p_5b
+columnName=C_P_5b
+# --field-end--
+# --field-start--
+fieldName=c_p_5c
+columnName=C_P_5c
+# --field-end--
+# --field-start--
+fieldName=c_p_5d
+columnName=C_P_5d
+# --field-end--
+# --field-start--
+fieldName=c_p_5e
+columnName=C_P_5e
+# --field-end--
+# --field-start--
+fieldName=c_p_6
+columnName=C_P_6
+# --field-end--
+# --field-start--
+fieldName=c_p_7
+columnName=C_P_7
+# --field-end--
+# --field-start--
+fieldName=c_p_comments
+columnName=C_P_Comments
+# --field-end--
+# --field-start--
+fieldName=c_p_status
+columnName=C_P_Status
+# --field-end--
+# --field-start--
+fieldName=c_q_1
+columnName=C_Q_1
+# --field-end--
+# --field-start--
+fieldName=c_q_2
+columnName=C_Q_2
+# --field-end--
+# --field-start--
+fieldName=c_q_3
+columnName=C_Q_3
+# --field-end--
+# --field-start--
+fieldName=c_q_comments
+columnName=C_Q_Comments
+# --field-end--
+# --field-start--
+fieldName=c_q_status
+columnName=C_Q_Status
+# --field-end--
+# --field-start--
+fieldName=c_r_1
+columnName=C_R_1
+# --field-end--
+# --field-start--
+fieldName=c_r_2
+columnName=C_R_2
+# --field-end--
+# --field-start--
+fieldName=c_r_comments
+columnName=C_R_Comments
+# --field-end--
+# --field-start--
+fieldName=c_r_status
+columnName=C_R_Status
+# --field-end--
+# --field-start--
+fieldName=C_drugs_service
+columnName=C_drugs_service
+# --field-end--
+# --field-start--
+fieldName=C_drugs_intolerances
+columnName=C_drugs_intolerances
+# --field-end--
+# --field-start--
+fieldName=C_drugs_intolerances1
+columnName=C_drugs_intolerances1
+# --field-end--
+# --field-start--
+fieldName=C_Annexe_Status
+columnName=C_Annexe_Status
+# --field-end--
+# --field-start--
+fieldName=C_S_Date
+columnName=C_S_Date
+# --field-end--
+# --field-start--
+fieldName=C_S_Status
+columnName=C_S_Status
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.wael.entities.Patient_annexe_a
+tableName=m2m_patient_annexe_a
+# --table-fields-start--
+# --field-start--
+fieldName=PatientID
+columnName=Patient_ID
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=a_bb_1_lastname
+columnName=A_BB_1_LastName
+# --field-end--
+# --field-start--
+fieldName=a_bb_1_firstname
+columnName=A_BB_1_FirstName
+# --field-end--
+# --field-start--
+fieldName=a_bb_1_no_avs
+columnName=A_BB_1_No_avs
+# --field-end--
+# --field-start--
+fieldName=a_bb_1_no_dossier_interne
+columnName=A_BB_1_No_dossier_interne
+# --field-end--
+# --field-start--
+fieldName=a_bb_1_no_carte_assure
+columnName=A_BB_1_No_carte_assure
+# --field-end--
+# --field-start--
+fieldName=a_bb_1_street
+columnName=A_BB_1_Street
+# --field-end--
+# --field-start--
+fieldName=a_bb_1_no
+columnName=A_BB_1_No
+# --field-end--
+# --field-start--
+fieldName=a_bb_1_canton
+columnName=A_BB_1_Canton
+# --field-end--
+# --field-start--
+fieldName=a_bb_1_postalcode
+columnName=A_BB_1_PostalCode
+# --field-end--
+# --field-start--
+fieldName=a_bb_1_city
+columnName=A_BB_1_City
+# --field-end--
+# --field-start--
+fieldName=a_bb_1_email
+columnName=A_BB_1_Email
+# --field-end--
+# --field-start--
+fieldName=a_bb_1_phone
+columnName=A_BB_1_Phone
+# --field-end--
+# --field-start--
+fieldName=a_bb_2
+columnName=A_BB_2
+# --field-end--
+# --field-start--
+fieldName=a_bb_3a
+columnName=A_BB_3a
+# --field-end--
+# --field-start--
+fieldName=a_bb_1_Natel
+columnName=A_BB_1__Natel
+# --field-end--
+# --field-start--
+fieldName=a_bb_3b
+columnName=A_BB_3b
+# --field-end--
+# --field-start--
+fieldName=a_bb_4_sexe
+columnName=A_BB_4_Sexe
+# --field-end--
+# --field-start--
+fieldName=a_bb_5_dob
+columnName=A_BB_5_DOB
+# --field-end--
+# --field-start--
+fieldName=a_bb_6_nationality
+columnName=A_BB_6_Nationality
+# --field-end--
+# --field-start--
+fieldName=a_bb_6_othernationality
+columnName=A_BB_6_OtherNationality
+# --field-end--
+# --field-start--
+fieldName=a_bb_7_civilstatus
+columnName=A_BB_7_CivilStatus
+# --field-end--
+# --field-start--
+fieldName=a_bb_7_languematernelle
+columnName=A_BB_7_LangueMaternelle
+# --field-end--
+# --field-start--
+fieldName=a_bb_7_otherlanguage
+columnName=A_BB_7_OtherLanguage
+# --field-end--
+# --field-start--
+fieldName=a_bb_9_lastjob
+columnName=A_BB_9_LastJob
+# --field-end--
+# --field-start--
+fieldName=a_bb_comments
+columnName=A_BB_Comments
+# --field-end--
+# --field-start--
+fieldName=a_cc_7a
+columnName=A_CC_7a
+# --field-end--
+# --field-start--
+fieldName=a_cc_7b
+columnName=A_CC_7b
+# --field-end--
+# --field-start--
+fieldName=a_cc_7c
+columnName=A_CC_7c
+# --field-end--
+# --field-start--
+fieldName=a_cc_7d
+columnName=A_CC_7d
+# --field-end--
+# --field-start--
+fieldName=a_cc_7e
+columnName=A_CC_7e
+# --field-end--
+# --field-start--
+fieldName=a_cc_8a
+columnName=A_CC_8a
+# --field-end--
+# --field-start--
+fieldName=a_cc_8b
+columnName=A_CC_8b
+# --field-end--
+# --field-start--
+fieldName=a_cc_8_description
+columnName=A_CC_8_description
+# --field-end--
+# --field-start--
+fieldName=a_cc_comments
+columnName=A_CC_comments
+# --field-end--
+# --table-fields-end--
+# --table-end--

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="horizontal">
+
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".3"
+        android:background="#e89b71"
+        android:cacheColorHint="#ffffff"
+        android:divider="#E1E4E9"
+        android:dividerHeight="1dp"
+        android:padding="6dp"
+        android:paddingBottom="3dp" >
+
+    </ListView>
+
+    <ScrollView
+         android:padding="6dp"
+        android:layout_width="0dp"
+        android:layout_weight=".7"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/myListView" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutFormulaire"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
